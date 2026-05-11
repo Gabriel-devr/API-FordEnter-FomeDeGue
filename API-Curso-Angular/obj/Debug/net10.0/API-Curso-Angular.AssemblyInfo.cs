@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API-Curso-Angular")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5e5523ce3006e73961462890fa7d177436bc1ca")]
 [assembly: System.Reflection.AssemblyProductAttribute("API-Curso-Angular")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API-Curso-Angular")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

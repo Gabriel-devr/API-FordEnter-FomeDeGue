@@ -1,77 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\C#\\API-Curso-Angular\\",
+  "WorkspaceRootPath": "C:\\C#\\API-FordEnter-FomeDeGue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\repositories\\account\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\account\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\repositories\\products\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\products\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\api-curso-angular.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\api-curso-angular.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\repositories\\account\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\account\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\dtos\\response\\forgotpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\response\\forgotpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\dtos\\response\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\response\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\dtos\\request\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\dtos\\request\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\repositories\\products\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\products\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\request\\products\\createproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\products\\createproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\request\\products\\updateproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\products\\updateproductrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\resultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\dtos\\response\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\request\\account\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\account\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\request\\account\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\account\\forgotpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\repositories\\account\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\account\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\response\\forgotpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\response\\forgotpasswordresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\response\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\response\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\request\\account\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\account\\resetpasswordrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\response\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\response\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\dtos\\request\\createaccountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\createaccountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\dtos\\request\\account\\createaccountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\account\\createaccountrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\dtos\\request\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\request\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\extensions\\modelstateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\extensions\\modelstateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\extensions\\modelstateextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\models\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\models\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\models\\auth\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\models\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-fordenter-fomedegue\\api-curso-angular\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\models\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -81,90 +101,150 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "DockedWidth": 219,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ForgotPasswordResponseDTO.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Response\\ForgotPasswordResponseDTO.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Response\\ForgotPasswordResponseDTO.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Response\\ForgotPasswordResponseDTO.cs",
-              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Response\\ForgotPasswordResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Repositories\\Products\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Products\\ProductRepository.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Repositories\\Products\\ProductRepository.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Repositories\\Products\\ProductRepository.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwEAAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T13:51:42.205Z",
+              "WhenOpened": "2026-05-11T16:48:01.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "API-Curso-Angular",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\API-Curso-Angular.csproj",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\API-Curso-Angular.csproj",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\API-Curso-Angular.csproj",
+              "RelativeToolTip": "API-Curso-Angular\\API-Curso-Angular.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-11T17:21:17.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\appsettings.json",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\appsettings.json",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\appsettings.json",
+              "RelativeToolTip": "API-Curso-Angular\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-09T21:13:01.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Program.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Program.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Program.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwE0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T21:15:05.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAgwF0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T18:04:39.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T15:58:13.605Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Repositories\\Products\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Products\\IProductRepository.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Repositories\\Products\\IProductRepository.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Repositories\\Products\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T16:47:36.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateProductRequestDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Products\\CreateProductRequestDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\Products\\CreateProductRequestDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Products\\CreateProductRequestDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\Products\\CreateProductRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T18:32:40.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UpdateProductRequestDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Products\\UpdateProductRequestDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\Products\\UpdateProductRequestDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Products\\UpdateProductRequestDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\Products\\UpdateProductRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T17:08:47.974Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "ResultDTO.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\ResultDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\ResultDTO.cs",
               "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\ResultDTO.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\ResultDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\ResultDTO.cs",
               "RelativeToolTip": "API-Curso-Angular\\DTOs\\ResultDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T17:32:28.314Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UserResponseDTO.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
-              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T17:19:25.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginResponseDTO.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Response\\LoginResponseDTO.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Response\\LoginResponseDTO.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Response\\LoginResponseDTO.cs",
-              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Response\\LoginResponseDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T17:17:23.92Z",
+              "WhenOpened": "2026-05-10T17:32:28.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ModelStateExtension.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Extensions\\ModelStateExtension.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Extensions\\ModelStateExtension.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Extensions\\ModelStateExtension.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Extensions\\ModelStateExtension.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T16:48:25.88Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Auth\\User.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Models\\Auth\\User.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Auth\\User.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Models\\Auth\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T16:21:54.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Cliente.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Cliente.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Models\\Cliente.cs",
               "RelativeDocumentMoniker": "API-Curso-Angular\\Models\\Cliente.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Cliente.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Models\\Cliente.cs",
               "RelativeToolTip": "API-Curso-Angular\\Models\\Cliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -172,24 +252,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Account\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Account\\AccountRepository.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Account\\AccountRepository.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Repositories\\Account\\AccountRepository.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowH4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T16:06:31.941Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
               "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
               "RelativeToolTip": "API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -198,38 +265,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwEEAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T15:58:13.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ResetPasswordRequestDTO.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Request\\ResetPasswordRequestDTO.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\ResetPasswordRequestDTO.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Request\\ResetPasswordRequestDTO.cs",
-              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\ResetPasswordRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T02:37:46.536Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ForgotPasswordRequestDTO.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Request\\ForgotPasswordRequestDTO.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\ForgotPasswordRequestDTO.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Request\\ForgotPasswordRequestDTO.cs",
-              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\ForgotPasswordRequestDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Account\\ForgotPasswordRequestDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\Account\\ForgotPasswordRequestDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Account\\ForgotPasswordRequestDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\Account\\ForgotPasswordRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-10T02:36:12.815Z",
@@ -237,35 +278,110 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 10,
               "Title": "LoginRequestDTO.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Request\\LoginRequestDTO.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\LoginRequestDTO.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Request\\LoginRequestDTO.cs",
-              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\LoginRequestDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Account\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\Account\\LoginRequestDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Account\\LoginRequestDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\Account\\LoginRequestDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T02:28:11.028Z"
+              "WhenOpened": "2026-05-10T02:28:11.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateAccountRequestDTO.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Request\\CreateAccountRequestDTO.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\CreateAccountRequestDTO.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Request\\CreateAccountRequestDTO.cs",
-              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\CreateAccountRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Models\\Auth\\User.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Models\\Auth\\User.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Models\\Auth\\User.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Models\\Auth\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-10T02:21:14.297Z"
+              "WhenOpened": "2026-05-10T16:21:54.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ModelStateExtension.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Extensions\\ModelStateExtension.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Extensions\\ModelStateExtension.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Extensions\\ModelStateExtension.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Extensions\\ModelStateExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T16:48:25.88Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "LoginResponseDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Response\\LoginResponseDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Response\\LoginResponseDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Response\\LoginResponseDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Response\\LoginResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:17:23.92Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "UserResponseDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T17:19:25.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ForgotPasswordResponseDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Response\\ForgotPasswordResponseDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Response\\ForgotPasswordResponseDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Response\\ForgotPasswordResponseDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Response\\ForgotPasswordResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-11T13:51:42.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ResetPasswordRequestDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Account\\ResetPasswordRequestDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\Account\\ResetPasswordRequestDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Account\\ResetPasswordRequestDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\Account\\ResetPasswordRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T02:37:46.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreateAccountRequestDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Account\\CreateAccountRequestDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Request\\Account\\CreateAccountRequestDTO.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\DTOs\\Request\\Account\\CreateAccountRequestDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Request\\Account\\CreateAccountRequestDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T02:21:14.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\TokenService.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "API-Curso-Angular\\Services\\TokenService.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\TokenService.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Services\\TokenService.cs",
               "RelativeToolTip": "API-Curso-Angular\\Services\\TokenService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -273,35 +389,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Program.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Program.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Program.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Program.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAkwF8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T21:15:05.498Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\appsettings.json",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\appsettings.json",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\appsettings.json",
-              "RelativeToolTip": "API-Curso-Angular\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-09T21:13:01.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Administrador.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Administrador.cs",
+              "DocumentMoniker": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Models\\Administrador.cs",
               "RelativeDocumentMoniker": "API-Curso-Angular\\Models\\Administrador.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Administrador.cs",
+              "ToolTip": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\Models\\Administrador.cs",
               "RelativeToolTip": "API-Curso-Angular\\Models\\Administrador.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -1,5 +1,5 @@
 ﻿using API_Curso_Angular.DTOs;
-using API_Curso_Angular.DTOs.Request;
+using API_Curso_Angular.DTOs.Request.Account;
 using API_Curso_Angular.Extensions;
 using API_Curso_Angular.Repositories.Account;
 using Microsoft.AspNetCore.Mvc;

@@ -1,6 +1,6 @@
 ﻿using API_Curso_Angular.Data;
 using API_Curso_Angular.DTOs;
-using API_Curso_Angular.DTOs.Request;
+using API_Curso_Angular.DTOs.Request.Account;
 using API_Curso_Angular.DTOs.Response;
 using API_Curso_Angular.Models;
 using API_Curso_Angular.Models.Auth;
@@ -69,10 +69,7 @@ namespace API_Curso_Angular.Repositories.Account {
                     FullName = user.NomeCompleto
                 }
             };
-
             return new ResultDTO<LoginResponseDTO>(loginResponse);
-
-
         }
 
         public async Task<ResultDTO<string>> RegisterCustomer(CreateAccountRequestDTO model) {

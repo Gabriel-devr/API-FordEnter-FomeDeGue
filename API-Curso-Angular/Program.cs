@@ -1,6 +1,7 @@
 using API_Curso_Angular.Data;
 using API_Curso_Angular.Models.Auth;
 using API_Curso_Angular.Repositories.Account;
+using API_Curso_Angular.Repositories.Products;
 using API_Curso_Angular.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -74,6 +75,7 @@ builder.Services.AddCors(options => {
 
 builder.Services.AddScoped<TokenService>();
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
 
 builder.Services.AddControllers();
 

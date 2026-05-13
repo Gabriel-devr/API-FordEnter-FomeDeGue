@@ -14,8 +14,8 @@ namespace API_Curso_Angular.Models {
         public long EnderecoId { get; set; }
         public Endereco Endereco { get; set; } = null!;
 
-        public DateTime CriadoEm {  get; set; } = DateTime.Now;
-        public DateTime AtualizadoEm { get; set; } = DateTime.Now;
+        public DateTime CriadoEm {  get; set; } = DateTime.UtcNow;
+        public DateTime AtualizadoEm { get; set; } = DateTime.UtcNow;
 
         public EStatusPagamento StatusPagamento { get; set; } = EStatusPagamento.Pendente;
         public EStatusPedido StatusPedido { get; set; } = EStatusPedido.Processando;

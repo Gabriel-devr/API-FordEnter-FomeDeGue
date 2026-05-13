@@ -1,8 +1,12 @@
 using API_Curso_Angular.Data;
 using API_Curso_Angular.Models.Auth;
 using API_Curso_Angular.Repositories.Account;
+using API_Curso_Angular.Repositories.Carts;
 using API_Curso_Angular.Repositories.Products;
 using API_Curso_Angular.Services;
+using API_Curso_Angular.Services.Accounts;
+using API_Curso_Angular.Services.Carts;
+using API_Curso_Angular.Services.Products;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -20,7 +24,7 @@ builder.Services.AddIdentity<User, Role>(options => {
     options.User.RequireUniqueEmail = true;
     options.Password.RequiredLength = 6;
     options.Password.RequireNonAlphanumeric = true;
-    options.SignIn.RequireConfirmedEmail = true;
+    options.SignIn.RequireConfirmedEmail = false;
     options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);
     options.Lockout.MaxFailedAccessAttempts = 5;
 }).AddEntityFrameworkStores<AppDataContext>()
@@ -67,15 +71,19 @@ builder.Services.AddSwaggerGen(c => {
 //CORS
 builder.Services.AddCors(options => {
     options.AddPolicy("AllowFrontend", policy => {
-        policy.WithOrigins("http://localhost:4200")
+        policy.AllowAnyOrigin()
         .AllowAnyMethod()
         .AllowAnyHeader();
     });
 });
 
 builder.Services.AddScoped<TokenService>();
+builder.Services.AddScoped<IAccountService, AccountService>();
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICartService, CartService>();
+builder.Services.AddScoped<ICartRepository, CartRepository>();
 
 builder.Services.AddControllers();
 
@@ -86,8 +94,10 @@ if (app.Environment.IsDevelopment()) {
     app.UseSwaggerUI(x => x.SwaggerEndpoint("/swagger/v1/swagger.json", "FomeDeGue API v1"));
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
 app.UseCors("AllowFrontend");
 app.UseAuthentication();
 app.UseAuthorization();

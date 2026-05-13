@@ -6,10 +6,10 @@ namespace API_Curso_Angular.Repositories.Products
 {
     public interface IProductRepository
     {
-         Task<ResultDTO<Produto>> ProdutoPorId(long id);
-         Task<ResultDTO<IEnumerable<Produto>>> ListarProdutos();
-         Task<ResultDTO<Produto>> CriarProduto(CreateProductRequestDTO model);
-         Task<ResultDTO<string>> DeletarProduto(long id);
-         Task<ResultDTO<Produto>> AtualizarProduto(long id, UpdateProductRequestDTO model);
+         Task<Produto?> ProdutoPorId(long id);
+         Task<IEnumerable<Produto>> ListarProdutos();
+         Task<Produto> CriarProduto(Produto produto);
+         Task<Produto> DeletarProduto(Produto produto);
+         Task<Produto> AtualizarProduto(Produto produto);
     }
 }

@@ -17,7 +17,7 @@ namespace API_Curso_Angular.Services {
             var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]!);
 
             var claims = new List<Claim> {
-                new Claim(ClaimTypes.NameIdentifier, user.Email),
+                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                 new Claim(ClaimTypes.Email, user.Email!),
             };
 
@@ -27,7 +27,7 @@ namespace API_Curso_Angular.Services {
 
             var tokenDescription = new SecurityTokenDescriptor {
                 Subject = new ClaimsIdentity(claims),
-                Expires = DateTime.UtcNow.AddHours(double.Parse(_configuration["Jwt:Expires"]!)),
+                Expires = DateTime.UtcNow.AddHours(double.Parse(_configuration["Jwt:ExpireHours"]!)),
                 Issuer = _configuration["Jwt:Issuer"],
                 Audience = _configuration["Jwt:Audience"],
                 SigningCredentials = new SigningCredentials(

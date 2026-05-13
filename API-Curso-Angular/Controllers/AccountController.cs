@@ -2,6 +2,8 @@
 using API_Curso_Angular.DTOs.Request.Account;
 using API_Curso_Angular.Extensions;
 using API_Curso_Angular.Repositories.Account;
+using API_Curso_Angular.Services.Accounts;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_Curso_Angular.Controllers {
@@ -11,10 +13,10 @@ namespace API_Curso_Angular.Controllers {
     [Route("v1/[controller]")]
     public class AccountController : ControllerBase {
 
-        private readonly IAccountRepository _accountRepository;
+        private readonly IAccountService _accountService;
 
-        public AccountController(IAccountRepository accountRepository) {
-            _accountRepository = accountRepository;
+        public AccountController(IAccountService accountService) {
+            _accountService = accountService;
         }
 
         [HttpPost]
@@ -24,13 +26,13 @@ namespace API_Curso_Angular.Controllers {
                 return BadRequest(new ResultDTO<string>(ModelState.GetErrors()));
             }
 
-            var createAccount = await _accountRepository.RegisterCustomer(model);
+            var createAccount = await _accountService.RegisterCustomer(model);
 
             if (createAccount.Errors.Any()) {
                 return BadRequest(createAccount); //Erro detectado no repo
             }
 
-            return Ok(createAccount);
+            return Created("", createAccount);
         }
 
         [HttpPost]
@@ -40,7 +42,7 @@ namespace API_Curso_Angular.Controllers {
                 return BadRequest(new ResultDTO<string>(ModelState.GetErrors()));
             }
 
-            var login = await _accountRepository.Login(model);
+            var login = await _accountService.Login(model);
 
             if (login.Errors.Any()) {
                 return BadRequest(login);
@@ -56,7 +58,7 @@ namespace API_Curso_Angular.Controllers {
                 return BadRequest(new ResultDTO<string>(ModelState.GetErrors()));
             }
 
-            var forgotPassword = await _accountRepository.ForgotPassword(model);
+            var forgotPassword = await _accountService.ForgotPassword(model);
 
             return Ok(forgotPassword);
 
@@ -69,7 +71,7 @@ namespace API_Curso_Angular.Controllers {
                 return BadRequest(new ResultDTO<string>(ModelState.GetErrors()));
             }
 
-            var changePassword = await _accountRepository.ResetPassword(model);
+            var changePassword = await _accountService.ResetPassword(model);
 
             if (changePassword.Errors.Any()) {
                 return BadRequest(changePassword);
@@ -86,7 +88,7 @@ namespace API_Curso_Angular.Controllers {
                 return BadRequest(new ResultDTO<string>(ModelState.GetErrors()));
             }
 
-            var confirmEmail = await _accountRepository.ConfirmEmail(userId, code);
+            var confirmEmail = await _accountService.ConfirmEmail(userId, code);
 
             if (confirmEmail.Errors.Any()) {
                 return BadRequest(confirmEmail);

@@ -9,6 +9,6 @@ namespace API_Curso_Angular.Models {
         public decimal Valor { get; set; }
         public string Descricao { get; set; } = string.Empty;
         public long QuantidadeEmEstoque { get; set; }
-        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
     }
 }

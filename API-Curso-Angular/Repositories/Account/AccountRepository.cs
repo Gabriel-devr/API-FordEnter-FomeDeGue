@@ -1,142 +1,70 @@
 ﻿using API_Curso_Angular.Data;
-using API_Curso_Angular.DTOs;
-using API_Curso_Angular.DTOs.Request.Account;
-using API_Curso_Angular.DTOs.Response;
 using API_Curso_Angular.Models;
 using API_Curso_Angular.Models.Auth;
-using API_Curso_Angular.Services;
-using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.WebUtilities;
-using System.Text;
+
 
 namespace API_Curso_Angular.Repositories.Account {
 
     public class AccountRepository : IAccountRepository {
 
         private readonly UserManager<User> _userManager;
-        private readonly IConfiguration _configuration;
-        private readonly TokenService _tokenService;
+        private readonly RoleManager<Role> _roleManager;
+        private readonly AppDataContext _context;
 
-        public AccountRepository(AppDataContext context, UserManager<User> userManager, IConfiguration configuration, TokenService tokenService) {
+        public AccountRepository(UserManager<User> userManager, RoleManager<Role> roleManager, AppDataContext context) {
             _userManager = userManager;
-            _configuration = configuration;
-            _tokenService = tokenService;
+            _roleManager = roleManager;
+            _context = context;
         }
 
-        public async Task<ResultDTO<string>> ForgotPassword(ForgotPasswordRequestDTO model) {
-            var user = await _userManager.FindByEmailAsync(model.Email);
-
-            if (user == null || !await _userManager.IsEmailConfirmedAsync(user)) {
-                return new ResultDTO<string>("Erro");
-            }
-
-            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
-            var code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(token));
-
-            var frontendUrl = _configuration["Frontend:ResetPasswordUrl"] ?? "http://localhost:4200/reset-password";
-            var callbackUrl = $"{frontendUrl}?token={code}&email={Uri.EscapeDataString(user.Email)}";
-
-            var html = $"<p>Redefina sua senha clicando <a href=\"{callbackUrl}\">aqui</a>.</p>";
-
-            return new ResultDTO<string>("Se o e-mail estiver cadastrado e confirmado, um link de recuperação foi enviado.");
+        public async Task<IdentityResult> AddRoles(User user, string role) {
+            return await _userManager.AddToRoleAsync(user, role);
         }
 
-        public async Task<ResultDTO<LoginResponseDTO>> Login(LoginRequestDTO model) {
-            
-            var user = await _userManager.FindByEmailAsync(model.Email);
-            //Verificamos se o email está no nosso banco de dados
-
-            if(user == null) {
-                return new ResultDTO<LoginResponseDTO>("Usuário ou senha inválidos");
-            }
-
-            var checkPassword = await _userManager.CheckPasswordAsync(user, model.Password);
-            //Verifica se o email checado corresponde a sua senha
-
-            if (!checkPassword) {
-                return new ResultDTO<LoginResponseDTO>("Usuário ou senha inválidos");
-            }
-
-            var roles = await _userManager.GetRolesAsync(user);
-            var token = _tokenService.GenerateToken(user, roles);
-
-            var loginResponse = new LoginResponseDTO() {
-                Token = token,
-                User = new UserResponseDTO() {
-                    Email = user.Email!,
-                    FullName = user.NomeCompleto
-                }
-            };
-            return new ResultDTO<LoginResponseDTO>(loginResponse);
+        public async Task<IList<string>> GetRoles(User user) {
+            return await _userManager.GetRolesAsync(user);
         }
 
-        public async Task<ResultDTO<string>> RegisterCustomer(CreateAccountRequestDTO model) {
+        public async Task<IdentityResult> CreateUser(User user, string password) {
+            return await _userManager.CreateAsync(user, password);
+        }
 
-            var user = new User() {
-                Email = model.Email,
-                NomeCompleto = model.Nome,
-                UserName = model.Nome
-            };
+        public async Task<string> GeneratePasswordResetToken(User user) {
+            return await _userManager.GeneratePasswordResetTokenAsync(user);
+        }
 
-            var createUser = await _userManager.CreateAsync(user, model.Password);
-
-            if(!createUser.Succeeded) {
-                return new ResultDTO<string>(createUser.Errors.Select(x => x.Description).ToList());
-            }
-
-            return new ResultDTO<string>("Conta criada com sucesso", new List<string>());
+        public async Task<User?> GetUserByEmail(string email) {
+            return await _userManager.FindByEmailAsync(email);
 
         }
 
-        public async Task<ResultDTO<string>> RegisterAdmin (CreateAccountRequestDTO model) {
-
-            var user = new User() {
-                Email = model.Email,
-                NomeCompleto = model.Nome,
-                UserName = model.Nome
-            };
-
-            var createUser = await _userManager.CreateAsync(user, model.Password);
-
-            if (!createUser.Succeeded) {
-                return new ResultDTO<string>(createUser.Errors.Select(x => x.Description).ToList());
-            }
-
-            return new ResultDTO<string>("Conta criada com sucesso", new List<string>());
+        public async Task<User?> GetUserById(long id) {
+            return await _userManager.FindByIdAsync(id.ToString());
         }
 
-        public async Task<ResultDTO<string>> ResetPassword(ResetPasswordRequestDTO model) {
-            var user = await _userManager.FindByEmailAsync(model.Email);
-
-            if (user == null) {
-                return new ResultDTO<string>("Usuário ou senha inválidos.");
-            }
-
-            var resetPassword = await _userManager.ResetPasswordAsync(user, model.Token, model.Password);
-
-            if (!resetPassword.Succeeded) {
-                return new ResultDTO<string>(resetPassword.Errors.Select(x=>x.Description).ToList());
-            }
-
-            return new ResultDTO<string>("Senha redefinida com sucesso", new List<string>());
+        public async Task<IdentityResult> ResetPassword(User user, string token, string newPassword) {
+            return await _userManager.ResetPasswordAsync(user, token, newPassword);
         }
 
-        public async Task<ResultDTO<string>> ConfirmEmail(long userId, string code) {
-            var user = await _userManager.FindByIdAsync(userId.ToString());
-            if (user == null) {
-                return new ResultDTO<string>("Usuário não encontrado");
+        public async Task<bool> CheckPassword(User user, string novaSenha) {
+            return await _userManager.CheckPasswordAsync(user, novaSenha);
+        }
+
+        public async Task<IdentityResult> ConfirmEmail(User user, string token) {
+            return await _userManager.ConfirmEmailAsync(user, token);
+        }
+
+        public async Task CriarCliente(Cliente cliente) {
+            await _context.AddAsync(cliente);
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task<IdentityResult> AddToRole(User user, string role) {
+            if (! await _roleManager.RoleExistsAsync(role)) {
+                await _roleManager.CreateAsync(new Role { Name = role });
             }
-
-            var decodedToken = Encoding.UTF8.GetString(WebEncoders.Base64UrlDecode(code));
-            var result = await _userManager.ConfirmEmailAsync(user, decodedToken);
-
-            if (!result.Succeeded) {
-                return new ResultDTO<string>(result.Errors.Select(x => x.Description).ToList());
-            }
-
-            return new ResultDTO<string>("E-mail confirmado com sucesso");
+            return await _userManager.AddToRoleAsync(user, role);
         }
     }
 }

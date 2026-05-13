@@ -2,19 +2,20 @@
 using API_Curso_Angular.DTOs.Request.Products;
 using API_Curso_Angular.Extensions;
 using API_Curso_Angular.Repositories.Products;
+using API_Curso_Angular.Services.Products;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_Curso_Angular.Controllers
 {
     [ApiController]
-    [Route("/v1/[controller]")]
+    [Route("v1/[controller]")]
     public class ProductController : ControllerBase
     {
 
-        private readonly IProductRepository _repository;
+        private readonly IProductService _service;
 
-        public ProductController(IProductRepository repository) {
-            _repository = repository;
+        public ProductController(IProductService service) {
+            _service = service;
         }
 
         [HttpPost]
@@ -26,7 +27,7 @@ namespace API_Curso_Angular.Controllers
                 return BadRequest(new ResultDTO<string>(ModelState.GetErrors()));
             }
 
-            var criarProduto = await _repository.CriarProduto(model);
+            var criarProduto = await _service.CriarProduto(model);
             if (criarProduto.Errors.Any())
             {
                 return BadRequest(criarProduto);
@@ -39,21 +40,21 @@ namespace API_Curso_Angular.Controllers
         [Route("{id}")]
         public async Task<IActionResult> ProdutoPorId(long id)
         {
-            var produtoPorId = await _repository.ProdutoPorId(id);
+            var result = await _service.ProdutoPorId(id);
 
-            if (produtoPorId.Errors.Any())
+            if (result.Errors.Any())
             {
-                return NotFound(produtoPorId);
+                return NotFound(result);
             }
 
-            return Ok(produtoPorId);
+            return Ok(result);
         }
 
-        [HttpPost]
+        [HttpDelete]
         [Route("deletar-produto/{id}")]
         public async Task<IActionResult> DeletarProduto(long id)
         {
-            var deletarProduto = await _repository.DeletarProduto(id);
+            var deletarProduto = await _service.DeletarProduto(id);
             if (deletarProduto.Errors.Any())
             {
                 return BadRequest(deletarProduto);
@@ -65,7 +66,7 @@ namespace API_Curso_Angular.Controllers
         [Route("listar-produtos")]
         public async Task<IActionResult> ListarProdutos()
         {
-            var listarProdutos = await _repository.ListarProdutos();
+            var listarProdutos = await _service.ListarProdutos();
 
             if (listarProdutos.Errors.Any())
             {
@@ -84,7 +85,7 @@ namespace API_Curso_Angular.Controllers
                 return BadRequest(new ResultDTO<string>(ModelState.GetErrors()));
             }
 
-            var atualizarProduto = await _repository.AtualizarProduto(id, model);
+            var atualizarProduto = await _service.AtualizarProduto(id, model);
 
             if (atualizarProduto.Errors.Any())
             {

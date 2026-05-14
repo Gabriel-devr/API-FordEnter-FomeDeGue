@@ -18,7 +18,7 @@ O projeto utiliza o **.NET 10.0** como plataforma principal de desenvolvimento p
 Abaixo estão detalhados os endpoints disponíveis, organizados por contexto de funcionalidade.
 
 ### Gestão de Contas (v1/Account)
-O controlador de contas centraliza a segurança e o perfil do usuário. Os métodos incluem o **Registro de Cliente** (POST /registrar-cliente) para novos usuários, o **Login** (POST /login) para autenticação, além de fluxos para **Recuperação de Senha** (POST /recuperar-senha), **Redefinição de Senha** (POST /redefinir-senha) e **Confirmação de E-mail** (GET /confirmar-email).
+O controlador de contas centraliza a segurança e o perfil do usuário. Os métodos incluem o **Registro de Cliente** (POST /registrar-cliente) para novos usuários, o **Login** (POST /login) para autenticação. Os outros metodos do Auth, ainda não estão implementados, deixei para a sprint final **MARCELO LEIA AQUI**
 
 ### Catálogo de Produtos (v1/Product)
 Este módulo é responsável pela manutenção do inventário do sistema. As operações disponíveis permitem **Criar Produto** (POST /criar-produto), **Consultar Produto por ID** (GET /{id}), **Remover Produto** (DELETE /deletar-produto/{id}), **Listar todos os Produtos** (GET /listar-produtos) e **Atualizar Informações** existentes (PUT /atualizar-produto/{id}).

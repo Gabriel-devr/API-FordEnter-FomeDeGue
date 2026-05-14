@@ -3,6 +3,7 @@ using API_Curso_Angular.DTOs.Request.Products;
 using API_Curso_Angular.Extensions;
 using API_Curso_Angular.Repositories.Products;
 using API_Curso_Angular.Services.Products;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_Curso_Angular.Controllers

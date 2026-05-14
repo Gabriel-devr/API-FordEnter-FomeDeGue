@@ -3,76 +3,36 @@
   "WorkspaceRootPath": "C:\\C#\\API-Curso-Angular\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\services\\carts\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\services\\carts\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\services\\carts\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\services\\carts\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\repositories\\carts\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\carts\\cartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\repositories\\carts\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\carts\\icartrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\services\\products\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\services\\products\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\dtos\\response\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\dtos\\response\\userresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\services\\accounts\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\services\\accounts\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\repositories\\account\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\account\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\repositories\\account\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\account\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\services\\accounts\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\services\\accounts\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\repositories\\products\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\products\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\repositories\\products\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\repositories\\products\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|c:\\c#\\api-curso-angular\\api-curso-angular\\api-curso-angular.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2D5A10C4-6E18-6172-3A10-BA336B72A434}|API-Curso-Angular\\API-Curso-Angular.csproj|solutionrelative:api-curso-angular\\api-curso-angular.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,237 +42,114 @@
       "DocumentGroups": [
         {
           "DockedWidth": 219,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T02:14:35.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Program.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Program.cs",
+              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Program.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Program.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T01:30:42.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserResponseDTO.cs",
+              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
+              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
+              "RelativeToolTip": "API-Curso-Angular\\DTOs\\Response\\UserResponseDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T01:26:42.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "API-Curso-Angular",
+              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\API-Curso-Angular.csproj",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\API-Curso-Angular.csproj",
+              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\API-Curso-Angular.csproj",
+              "RelativeToolTip": "API-Curso-Angular\\API-Curso-Angular.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-13T01:19:39.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\CartController.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T00:59:28.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\wwwroot\\index.html",
+              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\wwwroot\\index.html",
+              "RelativeToolTip": "API-Curso-Angular\\wwwroot\\index.html",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAqwFgBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-05-13T00:03:24.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "API-Curso-Angular\\Services\\TokenService.cs",
+              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\TokenService.cs",
+              "RelativeToolTip": "API-Curso-Angular\\Services\\TokenService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T22:12:50.041Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartService.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Carts\\CartService.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Services\\Carts\\CartService.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Carts\\CartService.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Services\\Carts\\CartService.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAwwFYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T16:58:51.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICartService.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Carts\\ICartService.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Services\\Carts\\ICartService.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Carts\\ICartService.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Services\\Carts\\ICartService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T16:55:52.77Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CartRepository.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Carts\\CartRepository.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Carts\\CartRepository.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Carts\\CartRepository.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Repositories\\Carts\\CartRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T16:46:43.339Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ICartRepository.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Carts\\ICartRepository.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Carts\\ICartRepository.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Carts\\ICartRepository.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Repositories\\Carts\\ICartRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T16:38:33.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Controllers\\CartController.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\CartController.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwDwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T16:37:32.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowGAAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T01:46:06.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccountRepository.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Account\\AccountRepository.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Account\\AccountRepository.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Account\\AccountRepository.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Repositories\\Account\\AccountRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T00:51:06.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IAccountRepository.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Repositories\\Account\\IAccountRepository.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvxcAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T00:49:52.36Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 6,
               "Title": "AccountService.cs",
               "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Accounts\\AccountService.cs",
               "RelativeDocumentMoniker": "API-Curso-Angular\\Services\\Accounts\\AccountService.cs",
               "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Accounts\\AccountService.cs",
               "RelativeToolTip": "API-Curso-Angular\\Services\\Accounts\\AccountService.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAmwA8AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAQwHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T00:47:47.725Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IAccountService.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Accounts\\IAccountService.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Services\\Accounts\\IAccountService.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Accounts\\IAccountService.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Services\\Accounts\\IAccountService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T00:47:37.756Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Program.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Program.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Program.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Program.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAACQAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T00:42:44.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Products\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Products\\IProductRepository.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Products\\IProductRepository.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Repositories\\Products\\IProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:54:14.184Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Products\\IProductService.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Services\\Products\\IProductService.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Products\\IProductService.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Services\\Products\\IProductService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:54:04.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Products\\ProductService.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Services\\Products\\ProductService.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Services\\Products\\ProductService.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Services\\Products\\ProductService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAIwBgAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:53:23.3Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Products\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Repositories\\Products\\ProductRepository.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Repositories\\Products\\ProductRepository.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Repositories\\Products\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:31:18.068Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:21:45.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Pedido.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Models\\Pedido.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Pedido.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Models\\Pedido.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:15:45.694Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "API-Curso-Angular\\Models\\Produto.cs",
-              "ToolTip": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\Models\\Produto.cs",
-              "RelativeToolTip": "API-Curso-Angular\\Models\\Produto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:15:38.363Z",
+              "WhenOpened": "2026-05-12T00:47:47.725Z",
               "EditorCaption": ""
             }
           ]

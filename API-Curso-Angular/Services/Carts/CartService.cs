@@ -21,10 +21,12 @@ namespace API_Curso_Angular.Services.Carts {
             var cart = await _cartRepository.GetCartByClientId(clienteId);
 
             if (cart == null) {
-                cart = new Carrinho {
+                cart = new Carrinho
+                {
                     ClienteId = clienteId,
                     CriadoEm = DateTime.UtcNow,
-                    AtualizadoEm = DateTime.UtcNow
+                    AtualizadoEm = DateTime.UtcNow,
+                    Items = new List<ItemCarrinho>()
                 };
                 await _cartRepository.CreateCart(cart);
             }

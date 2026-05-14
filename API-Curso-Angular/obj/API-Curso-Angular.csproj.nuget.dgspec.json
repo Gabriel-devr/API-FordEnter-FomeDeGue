@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\API-Curso-Angular.csproj": {}
+    "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\API-Curso-Angular.csproj": {}
   },
   "projects": {
-    "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\API-Curso-Angular.csproj": {
+    "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\API-Curso-Angular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\API-Curso-Angular.csproj",
+        "projectUniqueName": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\API-Curso-Angular.csproj",
         "projectName": "API-Curso-Angular",
-        "projectPath": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\API-Curso-Angular.csproj",
-        "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\API-Curso-Angular\\API-Curso-Angular\\obj\\",
+        "projectPath": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\API-Curso-Angular.csproj",
+        "packagesPath": "C:\\Users\\Gabri\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\API-FordEnter-FomeDeGue\\API-Curso-Angular\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Gabriel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -59,23 +58,19 @@
               "target": "Package",
               "version": "[10.0.7, )"
             },
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[10.0.7, )"
-            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[10.0.7, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[10.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[10.1.7, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
@@ -97,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

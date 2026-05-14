@@ -27,9 +27,22 @@ namespace API_Curso_Angular.Data {
 
         public AppDataContext(DbContextOptions options) : base(options) { }
 
-        protected override void OnModelCreating(ModelBuilder builder) {
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
             base.OnModelCreating(builder);
             builder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+
+            builder.Entity<Pedido>()
+                .HasOne(p => p.Cliente)
+                .WithMany(c => c.Pedidos)
+                .HasForeignKey(p => p.ClienteId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            builder.Entity<Pedido>()
+                .HasOne(p => p.Endereco)
+                .WithMany()
+                .HasForeignKey(p => p.EnderecoId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
 
     }

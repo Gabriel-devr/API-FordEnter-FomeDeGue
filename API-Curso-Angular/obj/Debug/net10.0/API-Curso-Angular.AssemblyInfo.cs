@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API-Curso-Angular")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d59e1e9418ffb4c624a0c5754294a20c94fbcfe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2545f9cf565347141a044844f1efd16f9a65666")]
 [assembly: System.Reflection.AssemblyProductAttribute("API-Curso-Angular")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API-Curso-Angular")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

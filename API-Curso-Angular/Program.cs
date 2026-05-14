@@ -11,13 +11,13 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.OpenApi;
+using Microsoft.OpenApi.Models;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AppDataContext>(options => options.UseNpgsql(connectionString));
+builder.Services.AddDbContext<AppDataContext>(options => options.UseSqlServer(connectionString));
 
 //Registrar Identity com tipos customizados
 builder.Services.AddIdentity<User, Role>(options => {
@@ -54,17 +54,28 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c => {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "FomeDeGue API", Version = "v1" });
 
-    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme {
+    c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
         Description = "Insira o token JWT desta maneira: Bearer {seu token}",
         Name = "Authorization",
-        Scheme = "Bearer",
-        BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Type = SecuritySchemeType.ApiKey
+        Type = SecuritySchemeType.ApiKey,
+        Scheme = "Bearer"
     });
 
-    c.AddSecurityRequirement(document => new OpenApiSecurityRequirement {
-        [new OpenApiSecuritySchemeReference("Bearer", document)] = []
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
     });
 });
 
